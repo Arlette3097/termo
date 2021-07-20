@@ -10,6 +10,16 @@ app.get('/', (req,res) => {
     res.sendFile(htmlPath);
 } )
 
+app.get('/datoHistorico', (req,res) => {
+    let htmlPath = path.resolve(__dirname,'./views/datoHistorico.html');
+    res.sendFile(htmlPath);
+} )
+
+app.get('/maquinasR', (req,res) => {
+    let htmlPath = path.resolve(__dirname,'./views/maquinasR.html');
+    res.sendFile(htmlPath);
+} )
+
 app.listen(process.env.PORT || 3000,function() {
     console.log('Servidor corriendo en el puerto 3000');
 })

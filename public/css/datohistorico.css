@@ -71,79 +71,43 @@ p{
     font-size: 22px;
 }
 
-.parrafo{
+.todo{
     display:flex;
     flex-wrap: wrap;
-    margin-bottom: 2%;
-    justify-content: left;
-    height: 20%;
+    padding: 3%;
+    text-align: justify;
+    flex-direction: column;
+    height: 90%;
+    bottom:0px;
+    align-items: center;
+    justify-content: center;
 }
 
-.texto{
-    width: 65%;
-    top:50%;
-}
-
-.contenedor-motor{
-    width: 35%;
-    height: 20%;
-    text-align: center;
-}
-
-.contenedorDiagraT{
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-    height: 20%;
-    justify-content: space-around;
-    border: #cc7612 3px dotted;
-}
-
-p#tema{
-    font-weight:bold;
-    width: 100%;
-    text-align: center;
-    color:#123a44;
-}
-
-.contenedorDiagra{
-    width:45%;
-    text-align: center;
-
-}
-
-.diagrama1{
-    height: 80%;
-}
-
-.diagrama2{
-    width: 85%;
-
-}
-
-.desplegable{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    width: 100%;
-    height: 25%;
-}
-
-.datosExtra{
-    width: 30%;
-    height: 80%;
+.back{
+    align-self:left ;
+    width: 15%;
+    height: 8%;
     text-align: center;
     border: 3px solid #cc7612;
     background-color: #efd069;
     border-radius: 35px;
     padding:1%;
     font-weight: bold;
+    position:fixed;
+    left:-25px;
+    text-align: center;
+    margin-top: 1.5%;
+    box-sizing: border-box;
 
 }
 
+a{
+    font-weight: bold;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #123a44;
+}
 
-
-
-
+.contenedor-imagen{
+    margin-top: 2%;
+}
