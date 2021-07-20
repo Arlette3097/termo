@@ -1,0 +1,96 @@
+
+body{
+    margin:0px;
+    height: 90%;
+    position: absolute;
+    bottom:0px;
+    background-color: #f8efd9;
+}
+
+header{
+    width: 100%;
+    height: 10%;
+    position:fixed;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #efd069;
+    top:0px;
+}
+
+.opciones{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    align-items: flex-end;
+}
+.views{
+    color:#123a44;
+    text-decoration:none;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.logo{
+    height: 80%;
+}
+
+main{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    margin:2%;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+h2{
+    margin-bottom:0%;
+    font-size: 30px;
+}
+
+h3{
+    margin-top:0%;
+    width: 90%;
+    text-align: center;
+    font-size:22px;
+}
+
+h4{
+    text-align: left;
+    width: 100%;
+    font-size: 25px;
+}
+
+p{
+    font-size: 22px;
+}
+
+.parrafo{
+    display:flex;
+    flex-wrap: wrap;
+    margin-bottom: 2%;
+    justify-content: left;
+    height: 20%;
+}
+
+.texto{
+    width: 65%;
+    top:50%;
+}
+
+.contenedor-motor{
+    width: 35%;
+    height: 20%;
+    text-align: center;
+}
+
+
+
+
+
