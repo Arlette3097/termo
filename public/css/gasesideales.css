@@ -41,6 +41,7 @@ main{
     align-items: center;
     text-align: justify;
     margin:2%;
+    width: 90vw;
 }
 
 h1{
@@ -69,10 +70,35 @@ h4{
 p{
     font-size: 22px;
 }
+.contenedorDiagra15{
+    width:100%;
+    text-align: center;
+    margin-top: 10vh;
 
-.motorr{
-    width: 1000px;
-    margin-top: 20px;
+}
+.diagrama15{
+    width: 100%;
+}
+.back{
+    align-self:left ;
+    width: 15%;
+    height: 8%;
+    text-align: center;
+    border: 3px solid #cc7612;
+    background-color: #efd069;
+    border-radius: 35px;
+    padding:1%;
+    font-weight: bold;
+    position:fixed;
+    left:-25px;
+    text-align: center;
+    margin-top: 1.5%;
+    box-sizing: border-box;
 }
 
-
+a{
+    font-weight: bold;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #123a44;
+}
