@@ -143,6 +143,55 @@ p#tema{
 
 }
 
+#datitos{
+    width: 38%;
+}
+
+ul{
+    font-size: 22px;
+}
+.partes-proceso{
+    margin-bottom: 2%;
+
+}
+
+.diagrama3{
+    width: 100%;
+}
+
+.pie{
+    font-size: 18px;
+    font-style: italic;
+    text-align: center;
+
+}
+
+.contenedor-diagratotal{
+    display:flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 300px;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+
+.diagrama4{
+    width: 50%;
+
+}
+
+.diagrama5{
+    width:  50%;
+    
+}
+
+#separacion{
+    margin-top:4%
+}
+
+#ejemplitos{
+    margin: 3%;
+}
 
 
 

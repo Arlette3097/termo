@@ -81,6 +81,169 @@ rel="stylesheet"/>
                 <p class="datosExtra" id="otrosDatos"><a href='/datoHistorico'>Dato Histórico</a></p>
                 <p class="datosExtra"><a href='/maquinasR'>Máquinas reciprocantes</a></p>
             </div>
+            <ul>
+                <li class="partes-proceso">En este tipo de ciclo, el émbolo ejecuta cuatro tiempos completos (dos ciclos mecánicos) dentro del cilindro, y el cigüeñal completa dos revoluciones por cada ciclo termodinámico.</li>
+            </ul>
+            <p>El diagrama P-v para una máquina real de encendido por chispa de cuatro tiempos se presenta a continuación:</p>
+            <div class="contenedorDiagra">
+                <img class="diagrama3" src="./images/Otto_12.png">
+                <p class="pie">Ciclos real e ideal en motores de encendido por chispa y sus diagramas P-v.</p>
+            </div>
+            <p>El análisis termodinámico de los ciclos reales de cuatro tiempos no es una tarea simple. Sin embargo, el análisis puede simplificarse de manera significativa si se utilizan las suposiciones de aire estándar, ya que el ciclo que resulta y que es parecido a las condiciones de operación reales es el ciclo de Otto ideal, el cual se compone de cuatro procesos reversibles internamente:</p>
+            <h2>Procesos</h2>
+            <ul>
+                <li type="none" class="partes-proceso">1-2 Compresión isentrópica</li>
+                <li type="none" class="partes-proceso">2-3 Adición de calor a volumen constante</li>
+                <li type="none" class="partes-proceso">3-4 Expansión isentrópica</li>
+                <li type="none" class="partes-proceso">4-1 Rechazo de calor a volumen constante</li>
+            </ul>
+            <div class="contenedor-diagratotal">
+                <div class="contenedorDiagra">
+                    <img class="diagrama4" src="./images/Otto_13.jpg">
+                    <p class="pie">Diagrama T-s para el ciclo de Otto.</p>
+                </div>
+                <div class="contenedorDiagra">
+                    <img class="diagrama5" src="./images/Otto_14.jpg">
+                    <p class="pie">Diagrama P-v del ciclo de Otto ideal que incluye carreras de entrada y salida.</p>
+                </div>
+            </div>
+            <p>El ciclo de Otto ideal se ejecuta en un sistema cerrado, y sin tomar en cuenta los cambios en las energías cinética y potencial, el balance de energía para cualquiera de los procesos se expresa, por unidad de masa, como:</p>
+            <div class="contenedorDiagra">
+                <img class="diagrama1" src="./images/Otto_F03.png">
+            </div>
+            <p>No hay trabajo involucrado durante los dos procesos de transferencia de calor (sucede a volumen constante). Por lo tanto, la transferencia de calor hacia y desde el fluido de trabajo puede expresarse como:</p>
+            <div class="contenedorDiagra">
+                <img class="diagrama1" src="./images/Otto_F04.png">
+            </div>
+            <p>Entonces, la eficiencia térmica del ciclo de Otto ideal supuesto para el aire estándar frío es:</p>
+            <div class="contenedorDiagra">
+                <img class="diagrama1" src="./images/Otto_F05.png">
+            </div>
+            <p>Los procesos 1-2 y 3-4 son isentrópicos, y v2 = v3 y v4 = v1. Por lo tanto:</p>
+            <div class="contenedorDiagra">
+                <img class="diagrama1" src="./images/Otto_F06.png">
+            </div>
+            <p>Sustituyendo estas ecuaciones en la relación de la eficiencia térmica y simplificando, se obtiene:</p>
+            <div class="contenedorDiagra">
+                <img class="diagrama1" src="./images/Otto_F07.png">
+            </div>
+            <p>Donde:</p>
+            <div class="contenedorDiagra">
+                <img class="diagrama1" src="./images/Otto_F08.png">
+            </div>
+            <p>Que es la relación de compresión, y k es la relación de calores específicos cp /cv.</p>
+            <h2>Análisis energético de cada proceso</h2>
+            <p>1-2 Compresión Isentrópica:</p>
+            <div class="contenedorDiagra">
+                <img class="diagrama1" src="./images/Otto_F10.png">
+            </div>
+            <p>2-3 Adición de calor a volumen constante: </p>
+            <div class="contenedorDiagra">
+                <img class="diagrama1" src="./images/Otto_F11.png">
+            </div>
+            <p>3-4 Expansión Isentrópica:</p>
+            <div class="contenedorDiagra">
+                <img class="diagrama1" src="./images/Otto_F12.png">
+            </div>
+            <p>4-1 Rechazo de calor a volumen constante:</p>
+            <div class="contenedorDiagra">
+                <img class="diagrama1" src="./images/Otto_F13.png">
+            </div>
+            <p>Finalmente</p>
+            <div class="contenedorDiagra">
+                <img class="diagrama1" src="./images/Otto_F14.png">
+            </div>
+            <p>Sabemos que</p>
+            <div class="contenedorDiagra">
+                <img class="diagrama1" src="./images/Otto_1234.jpeg">
+            </div>
+            <p>Los procesos 1-2 y 3-4 son isentrópicos, por lo que:</p>
+            <div class="contenedorDiagra">
+                <img class="diagrama1" src="./images/Otto_F16.png">
+            </div>
+            <div class="contenedor" id="separacion">
+                <div class="parrafo">
+                    <p class="texto"> Una gráfica de la eficiencia térmica contra la relación de compresión se presenta en la figura  para k = 1.4, el cual es el valor de la relación de calores específicos del aire a temperatura ambiente. Para una relación de compresión dada, la eficiencia térmica de una máquina real de encendido por chispa será menor que la de un ciclo de Otto ideal debido a irreversibilidades como la fricción y a otros factores, como la combustión incompleta.</p>
+                    <div class="contenedor-motor">
+                        <img class="motor" src="./images/Otto_16.png">
+                        <p class="pie">La eficiencia térmica de un ciclo de Otto ideal como una función de la relación de compresión (k 5 1.4)</p>
+                    </div>
+                </div>
+                <div class="parrafo">
+                    <div class="contenedor-motor">
+                        <img class="motor" src="./images/Otto_17.png">
+                        <p class="pie">La eficiencia térmica del ciclo de Otto aumenta con la relación de calores específicos k del fluido de trabajo</p>
+                    </div>
+                    <p class="texto">El segundo parámetro que afecta la eficiencia térmica de un ciclo de Otto ideal es la relación de calores específicos k. Para una relación de compresión dada, un ciclo de Otto ideal que emplea un gas monoatómico (como argón o helio, k 5 1.667) como fluido de trabajo tendrá la eficiencia térmica más alta. La relación de calores específicos k, y por lo tanto la eficiencia térmica de un ciclo de Otto ideal, disminuye cuando las moléculas del fluido de trabajo son más grandes.</p>
+                </div>
+            </div>
+            <div class="desplegable">
+                <p class="datosExtra" id="datitos"><a href='/aireestandar'>Suposiciones de aire estándar</a></p>
+                <p class="datosExtra" id="datitos"><a href='/gasesideales'>Relaciones isentrópicas para gases ideales</a></p>
+            </div>
+            <h2 id="ejemplitos">Ejemplo</h2>
+            <div class="parrafo">
+                <p class="texto">Un ciclo de Otto ideal tiene una relación de compresión de 8. Al inicio del proceso de compresión de aire está a 100 kPa y 17 °C, y 800 kJ/kg de calor se transfiere a volumen constante hacia el aire durante el proceso de adición de calor. Tome en cuenta la variación de los calores específicos del aire con la temperatura y determine a) la temperatura y presión máxima que ocurren durante el ciclo, b) la salida de trabajo neto, c) la eficiencia térmica, d) la presión media efectiva en el ciclo.</p>
+                <div class="contenedor-motor">
+                    <img class="motor" src="./images/Otto_ejemplo.jpeg">
+                    <p class="pie">Diagrama P-v para el ciclo de Otto</p>
+                </div>
+            </div>
+            <h2>Solución</h2>
+            <p>Primero que nada hay que considerar los siguientes puntos:</p>
+            <ul>
+                <li class="partes-proceso">Las suposiciones de aire estándar son aplicables. </li>
+                <li class="partes-proceso">Los cambios de energías cinética y potencial son insignificantes. </li>
+                <li class="partes-proceso">Será considerada la variación de los calores específicos debido a la temperatura. </li>
+            </ul>
+            <p>a) La temperatura y presión máximas en un ciclo de Otto ocurren al final del proceso de adición de calor a volumen constante. Primero necesitamos determinar la temperatura y presión del aire al final del proceso isentrópico de compresión, usando datos de  tablas termodinámicas:</p>
+            <div class="contenedor-refri"></div>
+                    <img class="refri" src="./images/Otto_F17.png">
+            </div>
+            <p>Proceso 1-2 (compresión isentrópica de un gas ideal):</p>
+            <div class="contenedorDiagra">
+                <img class="diagrama1" src="./images/Otto_F18.png">
+            </div>
+            <p>Proceso 2-3 (adición de calor a volumen constante):</p>
+            <div class="contenedorDiagra">
+                <img class="diagrama1" src="./images/Otto_F19.png">
+            </div>
+            <p>b) La salida de trabajo neto para el ciclo se determina al encontrar mediante integración cada trabajo de frontera (P dV) implicado en cada proceso y sumándolos, o al encontrar la transferencia neta de calor que es equivalente al trabajo neto realizado durante el ciclo.</p>
+            <p>Proceso 3-4 (expansión isentrópica de un gas ideal):</p>
+            <div class="contenedorDiagra">
+                <img class="diagrama1" src="./images/Otto_F20.png">
+            </div>
+            <p>Proceso 4-1 (rechazo de calor a volumen constante):</p>
+            <div class="contenedorDiagra">
+                <img class="diagrama1" src="./images/Otto_F21.png">
+            </div>
+            <p>Por lo tanto:</p>
+            <div class="contenedorDiagra">
+                <img class="diagrama1" src="./images/Otto_F22.png">
+            </div>
+            <p>c) La eficiencia térmica del ciclo es determinada a partir de su definición:</p>
+            <div class="contenedorDiagra">
+                <img class="diagrama1" src="./images/Otto_F23.png">
+            </div>
+            <p>Bajo las suposiciones de aire estándar frío (valores de calores específicos constantes a temperatura ambiente), la eficiencia térmica sería</p>
+            <div class="contenedorDiagra">
+                <img class="diagrama1" src="./images/Otto_F24.png">
+            </div>
+            <p>d) La presión media efectiva se determina por su definición</p>
+            <div class="contenedorDiagra">
+                <img class="diagrama1" src="./images/Otto_F25.png">
+            </div>
+            <p>Donde:</p>
+            <div class="contenedorDiagra">
+                <img class="diagrama1" src="./images/Otto_F26.png">
+            </div>
+            <p>Por lo tanto</p>
+            <div class="contenedorDiagra">
+                <img class="diagrama1" src="./images/Otto_F27.png">
+            </div>
+            <div class="desplegable">
+                <p class="datosExtra" ><a href='/ejerciciootto'>Ejercicio</a></p>
+            </div>
         </main>
     </body>
 </html>
