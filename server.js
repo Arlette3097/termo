@@ -39,6 +39,11 @@ app.get('/ejercicio', (req,res) => {
     res.sendFile(htmlPath);
 } )
 
+app.get('/ejemplosolucion', (req,res) => {
+    let htmlPath = path.resolve(__dirname,'./views/ejemplosolucion.html');
+    res.sendFile(htmlPath);
+} )
+
 app.listen(process.env.PORT || 3000,function() {
     console.log('Servidor corriendo en el puerto 3000');
 })

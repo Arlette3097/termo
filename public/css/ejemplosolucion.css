@@ -4,7 +4,6 @@ body{
     position: absolute;
     bottom:0px;
     background-color: #f8efd9;
-    width: 100%;
 }
 
 header{
@@ -71,17 +70,6 @@ p{
     font-size: 22px;
 }
 
-.todo{
-    display:flex;
-    padding: 3%;
-    text-align: justify;
-    flex-direction: column;
-    height: 90%;
-    bottom:0px;
-    align-items: center;
-    justify-content: center;
-}
-
 .back{
     align-self:left ;
     width: 15%;
@@ -93,11 +81,10 @@ p{
     padding:1%;
     font-weight: bold;
     position:fixed;
-    left:-18px;
+    left:-25px;
     text-align: center;
     margin-top: 1.5%;
     box-sizing: border-box;
-
 }
 
 a{
@@ -106,17 +93,69 @@ a{
     text-decoration: none;
     color: #123a44;
 }
-.contenedor-imagen{
-    margin-top: 2%;
-    display:flex;
-    flex-direction: row;
-    width: 100%;
-    height: 40%;
-    justify-content: center;
 
+
+.parrafo{
+    display:flex;
+    flex-wrap: wrap;
+    margin-bottom: 2%;
+    justify-content: left;
+    height: 400px;
+    width: 100%;
+    flex-direction: row;
+    margin-top: 1%;
+}
+
+.texto{
+    width: 50%;
+    margin-top:9%;
+    
+}
+
+.contenedor-motor{
+    width: 50%;
+    height:100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.motor{
+    height: 85%;
+    
+}
+.pie{
+    font-size: 18px;
+    font-style: italic;
+    text-align: center;
 
 }
-.imgdere{
+
+ul{
+    font-size: 22px;
+}
+.partes-proceso{
+    margin-bottom: 2%;
+
+}
+
+.contenedor-refri{
+    text-align: center;   
     
-    text-align: center;
+}
+
+.refri{ 
+    height: 240px;
+}
+
+.refri2{ 
+    height: 150px;
+}
+.refri3{ 
+    height: 220px;
+}
+.refri4{ 
+    height: 110px;
+    margin-bottom: 2%;
 }

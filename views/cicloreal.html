@@ -23,8 +23,25 @@ rel="stylesheet"/>
             </div>
         </header>
         <main>
-            <h1>Ciclo de Otto: El ciclo ideal para las máquinas de encendido por chispa</h1>
-            <h2>Motor de Combustión interna</h2>
+            <h1>El ciclo real de refrigeración por compresión de vapor</h1>
+            <div class="parrafo">
+                <p class="texto">Un ciclo real de refrigeración por compresión de vapor difiere de uno ideal en algunos aspectos, debido a las irreversibilidades que ocurren en algunos componentes. Dos de estas irreversibilidad son la fricción del fluido y la transferencia de calor hacia o desde los alrededores.</p>
+                <div class="contenedor-motor">
+                    <img class="motor" src="./images/Refri_real_01.JPG">
+                    <p class="pie">Esquema y diagrama T-s del ciclo real de refrigeración por compresión de vapor<p>
+                </div>
+            </div>
+            <h2>Principales diferencias</h2>
+            <ul>
+                <li class="partes-proceso">En el ciclo ideal, el refrigerante sale del evaporador y entra al compresor como vapor saturado. Sin embargo, en realidad no se puede controlar el estado del refrigerante con tanta precisión, por ello se diseña el sistema de modo que el refrigerante se sobrecaliente ligeramente en la entrada al compresor asegurando que este se evapore por completo.</li>
+                <li class="partes-proceso">La línea que conecta al evaporador con el compresor suele ser muy larga, por tanto, la caída de presión ocasionada por la fricción del fluido y la transferencia de calor de los alrededores al refrigerante pueden ser altas. El resultado de esto es un incremento en el volumen específico y por ende requiere de más potencia en la entrada del compresor.</li>
+                <li class="partes-proceso">El proceso de compresión en el ciclo ideal es internamente reversible y adiabático y, por ende, isentrópico. sin embargo, el real incluye efectos de fricción, lo que hace que pueda incrementar o disminuir la entropía y la transferencia de calor dependiendo de la dirección. Es por esto que el refrigerante debe enfriarse durante el proceso de compresión siempre que sea práctico y económico hacerlo.</li>
+                <li class="partes-proceso">En el caso ideal, el refrigerante sale del condensador como líquido saturado a la presión de salida del compresor. En cambio, en el real es inevitable tener cierta caída de presión en el condensador, así como en las líneas que lo conectan con el compresor y la válvula de estrangulamiento. Además, el proceso de condensación no es tan preciso como para que el refrigerante sea líquido satura al final, por lo que se requiere enviar el refrigerante a la válvula de estrangulamiento antes de que se condense por completo. Por otro lado, la válvula de estrangulamiento y el evaporador se deben localizar muy cerca el uno del otro para que la caída de presión en la línea de conexión es pequeña.</li>
+            </ul>
+            <div class="desplegable">
+                <p class="datosExtra" id="otrosDatos"><a href='/ejemplosolucion'>Ejemplo con solución</a></p>
+            </div>
+
         </main>
     </body>
 </html>
