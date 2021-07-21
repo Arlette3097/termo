@@ -49,6 +49,16 @@ app.get('/ejerciciootto', (req,res) => {
     res.sendFile(htmlPath);
 } )
 
+app.get('/gasesideales', (req,res) => {
+    let htmlPath = path.resolve(__dirname,'./views/gasesideales.html');
+    res.sendFile(htmlPath);
+} )
+
+app.get('/referencias', (req,res) => {
+    let htmlPath = path.resolve(__dirname,'./views/referencias.html');
+    res.sendFile(htmlPath);
+} )
+
 app.listen(process.env.PORT || 3000,function() {
     console.log('Servidor corriendo en el puerto 3000');
 })
