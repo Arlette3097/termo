@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie-edge">
+        <meta charset="UTF-8">
+        <title>Termo</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link href="./css/cicloideal.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+rel="stylesheet"/>
+    </head>
+    <body>
+        <header>
+            <img class="logo" src="./images/logo.png">
+            <div class="opciones">
+                <a class="views" href="">Nosotros</a>
+                <a class="views" href="">Ciclo de Otto</a>
+                <a class="views" href="">Ciclo ideal de refrigeración por compresión</a>
+                <a class="views" href="">Ciclo real de refrigeración por compresión</a>
+            </div>
+        </header>
+        <main>
+            <h1>El ciclo ideal de refrigeración por compresión de vapor</h1>
+            <div class="parrafo">
+                <p class="texto"> A diferencia del ciclo de refrigeración invertido de Carnot, este ciclo elimina ciertas desventajas al sustituir la turbina con un dispositivo de estrangulamiento, como puede ser una válvula de expansión o un tubo capilar. Existen dos presiones en el ciclo de refrigeracion por compresion: la de evaporación o de baja presión y la de condensación o de alta presión. El refrigerante actúa como transporte para mover el calor del evaporador al condensador, donde se despede a la atmósfera o al agua de enfriamiento, en caso de sistemas enfriados mediante el uso de agua. Un cambio de estado líquido a vapor, y viceversa, permite al refrigerante absorber y descargar grandes cantidades de calor de forma eficiente.</p>
+                <div class="contenedor-motor">
+                    <img class="motor" src="./images/Refri_ideal_01.JPG">
+                    <p class="pie">Esquema del ciclo ideal de refrigeración por compresión de vapor.<p>
+                </div>
+            </div>
+            <div class="desplegable">
+                <p class="datosExtra" id="otrosDatos"><a href='/datohistorico2'>Dato Histórico</a></p>
+            </div>
+            <h2 id="procesos">Procesos</h2>
+            <p>Se compone de 4 procesos</p>
+            <ul>
+                <li type=none>1-2 Compresión isentrópica en un compresor</li>
+                <li type=none>2-3 Rechazo de calor a presión constante en un condensador</li>
+                <li type=none>3-4 Estrangulamiento en un dispositivo de expansión</li>
+                <li type=none>4-1 Absorción de calor a presión constante en un evaporador</li>
+            </ul>
+            <ul>
+                <li class="partes-proceso">El refrigerante entra al compresor en el estado 1 como vapor saturado y se comprime isentrópicamente hasta la presión que tiene el condensador, esto conlleva a que la temperatura del refrigerante aumente hasta un valor muy superior al del medio circundante.</li>
+                <li class="partes-proceso">Después el refrigerante entra en el condensador como vapor sobrecalentado en el estado 2, rechaza el calor hacia los alrededores y sale como líquido saturado en el estado 3. La temperatura del refrigerante se mantendrá por encima de la temperatura del medio circundante durante este estado.</li>
+                <li class="partes-proceso">El refrigerante en el estado 3 se estrangula hasta la presión del evaporador al pasarlo por una válvula de expansión o por un tubo capilar y la temperatura del refrigerante desciende por debajo de la temperatura del espacio refrigerado.</li>
+                <li class="partes-proceso">El refrigerante entra al evaporador en el estado 4 como un vapor húmedo de baja calidad y se evapora completamente absorbiendo el calor del espacio refrigerado. El refrigerante sale del evaporador como vapor saturado y vuelve a entrar al compresor, completando así el ciclo.</li>
+            </ul>
+            <h2 id="procesos">Diagrama T-s</h2>
+            <div class="contenedor-ts">
+                <ul class="listado">
+                    <li class="partes-proceso">El área bajo la curva del proceso en un diagrama T-s representa la transferencia de calor en caso de procesos internamente reversibles. </li>
+                    <li class="partes-proceso">El área bajo la curva del proceso 4-1 representa el calor absorbido por el refrigerante en el evaporador.</li>
+                    <li class="partes-proceso">El área bajo la curva del proceso 2-3 representa el calor rechazado en el condensador.</li>
+                    <li class="partes-proceso">Una regla empírica es que el COP mejora entre 2% y 4% por cada °C que eleva la temperatura de evaporación o que disminuye la temperatura de condensación.</li>
+                </ul>
+                <div class="cont-img">
+                    <img class="img" src="./images/Refri_ideal_02.JPG">
+                </div>
+            </div>
+            <h2 id="procesos">Fórmulas</h2>
+            <p>Los cambios en la energía cinética y potencial del refrigerante son pequeños y pueden ignorarse, entonces la ecuación de energía de flujo estacionario por unidad de masa queda de la siguiente manera:</p>
+            <div class="contenedor-formula2">
+                <img class="formula2" src="./images/Refri_ideal_03.JPG">
+            </div>
+            <p>El condensador y el evaporador no implican ningún trabajo y el compresor puede considerarse como adiabático, por lo tanto el coeficiente de desempeño COP de refrigeradores puede expresarse como:</p>
+            <div class="contenedor-formula3">
+                <img class="formula3" src="./images/Refri_ideal_04.JPG">
+            </div>
+            <p>Y en el caso de bombas de calor:</p>
+            <div class="contenedor-formula4">
+                <img class="formula4" src="./images/Refri_ideal_05.JPG">
+            </div>
+            
+        </main>
+    </body>
+</html>

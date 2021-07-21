@@ -4,7 +4,6 @@ body{
     position: absolute;
     bottom:0px;
     background-color: #f8efd9;
-
 }
 
 header{
@@ -76,6 +75,7 @@ p{
     flex-wrap: wrap;
     padding: 3%;
     text-align: justify;
+    flex-direction: column;
     height: 90%;
     bottom:0px;
     align-items: center;
@@ -99,104 +99,23 @@ p{
     box-sizing: border-box;
 
 }
+
 a{
     font-weight: bold;
     font-size: 1.5em;
     text-decoration: none;
     color: #123a44;
 }
-
-.contenedor-formula{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    height: 15%;
-}
-.formula{
-    height: 100%;
-}
-
-.contenedor-nomen{
-    display: flex;
-    flex-direction: column;
-    align-self: flex-end;
-    height: 55%;
-    border: 3px dotted #cc7612;
-    padding: 1%;
-    margin-top:3%;
-    width: 45%;
-}
-
-.contenedor-nomen:hover{
-    border: 3px solid #efd069;
-
-}
-.nomen-titulo{
-    width: 100%;  
-    height: 20%; 
-    font-size: 1.2em; 
-    font-weight: bold;
-
-}
-
 .contenedor-imagen{
-    height: 80%;
-    width: 100%;
-    text-align: center;
-
-}
-.nomencla{
-    height: 100%;
-}
-
-.contenedor-formula2{
-    height: 10%;
-}
-.formula2{
-    height: 100%;
-}
-
-.formula3{
-    height: 100%;
-}
-.contenedor-formula3{
-    height: 20%;
-}
-
-.contenedor-extra{
-    display: flex;
+    margin-top: 2%;
+    display:flex;
     flex-direction: row;
-    height: 60%;
-    border: 3px dotted #cc7612;
-    padding: 1%;
-    margin-top:3%;
-    width: 70%;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.contenedor-extra:hover{
-    border: 3px solid #efd069;
-
-}
-#extra{
-    width: 40%;  
-    height: 100%; 
-    font-size: 1.2em; 
-    font-weight: bold;
-    margin-top:15%;
-    margin-left:4%;
-
-}
-
-.imagen-extra{
-    height: 100%;
-    width: 56%;
-    display: flex;
+    width: 100%;
     justify-content: center;
 
-}
-.imagenExtra{
-    height: 100%;
 
+}
+.imagen{
+    
+    height: 200px;
 }
