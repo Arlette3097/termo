@@ -33,6 +33,12 @@ app.get('/datohistorico2', (req,res) => {
     let htmlPath = path.resolve(__dirname,'./views/datohistorico2.html');
     res.sendFile(htmlPath);
 } )
+
+app.get('/ejercicio', (req,res) => {
+    let htmlPath = path.resolve(__dirname,'./views/ejercicio.html');
+    res.sendFile(htmlPath);
+} )
+
 app.listen(process.env.PORT || 3000,function() {
     console.log('Servidor corriendo en el puerto 3000');
 })

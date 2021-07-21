@@ -167,3 +167,40 @@ h2#procesos{
 .img{
     height: 80%;
 }
+
+.ejemplo{
+    display:flex;
+    flex-direction: row;
+    width: 80%;
+    flex-wrap: wrap;
+    border: 3px dotted #cc7612;
+    box-sizing: border-box;
+    padding: 1%;
+    margin-top:3%;
+    justify-content: space-around;
+}
+
+.ejemplo:hover{
+    border: 3px solid #efd069;
+}
+
+
+#ejem-text{
+    width:100% ;
+    margin-top:0%;
+    text-align: center;
+    font-size:30px;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+.ej{
+    width: 45%;
+}
+
+.contenedor-diag-ejem{
+    width: 45%;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
