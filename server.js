@@ -44,6 +44,11 @@ app.get('/ejemplosolucion', (req,res) => {
     res.sendFile(htmlPath);
 } )
 
+app.get('/ejerciciootto', (req,res) => {
+    let htmlPath = path.resolve(__dirname,'./views/ejerciciootto.html');
+    res.sendFile(htmlPath);
+} )
+
 app.listen(process.env.PORT || 3000,function() {
     console.log('Servidor corriendo en el puerto 3000');
 })

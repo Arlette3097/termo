@@ -109,8 +109,13 @@ a{
 .texto{
     width: 50%;
     margin-top:4.5%;
-    
 }
+
+#altura{
+    margin-top:4%;
+}
+
+
 
 .contenedor-motor{
     width: 50%;
@@ -123,39 +128,16 @@ a{
 
 .motor{
     height: 85%;
-    
 }
+
+#mini{
+    width: 80%;
+    height:initial;
+}
+
 .pie{
     font-size: 18px;
     font-style: italic;
     text-align: center;
 
-}
-
-ul{
-    font-size: 22px;
-}
-.partes-proceso{
-    margin-bottom: 2%;
-
-}
-
-.contenedor-refri{
-    text-align: center;   
-    
-}
-
-.refri{ 
-    height: 240px;
-}
-
-.refri2{ 
-    height: 150px;
-}
-.refri3{ 
-    height: 220px;
-}
-.refri4{ 
-    height: 110px;
-    margin-bottom: 2%;
 }
