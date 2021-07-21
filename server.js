@@ -58,6 +58,10 @@ app.get('/referencias', (req,res) => {
     let htmlPath = path.resolve(__dirname,'./views/referencias.html');
     res.sendFile(htmlPath);
 } )
+app.get('/aireestandar', (req,res) => {
+    let htmlPath = path.resolve(__dirname,'./views/aireestandar.html');
+    res.sendFile(htmlPath);
+} )
 
 app.listen(process.env.PORT || 3000,function() {
     console.log('Servidor corriendo en el puerto 3000');
